@@ -1,0 +1,314 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+body {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}body {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+}
+h2 {
+    margin-top: 30px;
+}
+
+h2, p, img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+nav {
+    background-color: blue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+nav a:hover {
+    color: yellow;
+}
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    line-height: 1.6;
+}
+.project {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px gray;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}.dark {
+  background-color: #222;
+  color: white;
+}
+
+.dark section {
+  background-color: #333;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+.dark button {
+    background-color: white;
+    color: black;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+nav {
+    border-radius: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px;
+}
+#home {
+    text-align: center;
+    padding: 40px;
+}
+
+#home h1 {
+    font-size: 35px;
+}
+
+#home p {
+    font-size: 20px;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+#contactForm {
+    max-width: 400px;
+    margin: auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+img:hover {
+    transform: scale(1.05);
+}
+#skills {
+    text-align: center;
+}
+
+#skills p {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+#projects {
+    text-align: center;
+}
+
+.project {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+.project:hover {
+    transform: translateY(-5px);
+}
+.project,
+button,
+img {
+    transition: 0.3s;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
